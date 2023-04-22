@@ -35,6 +35,6 @@ To use the implementations in this repository, simply clone the repository and r
 This repository is licensed under the MIT License. See the LICENSE file for details.
 
 ## Acknowledgments
-UCL/Deepmind course on Reinforcement Learning
-Sutton and Barto's textbook on Reinforcement Learning
-OpenAI gym
+- UCL/Deepmind course on Reinforcement Learning
+- Sutton and Barto: Introduction to Reinforcement Learning
+- OpenAI gym
