@@ -24,9 +24,11 @@ The implementations are available as Jupyter notebooks and make use of OpenAI gy
 ## Requirements
 To run the Jupyter notebooks, you will need to have Python 3.9 installed, as well as the following libraries:
 
-numpy
-matplotlib
-gym
+- numpy
+- matplotlib
+- gym
+
+
 These libraries can be installed using pip.
 
 ## How to Use
