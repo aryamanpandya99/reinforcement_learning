@@ -9,6 +9,7 @@ This directory contains implementations of two dynamic programming algorithms:
 
 - Policy Iteration
 - Value Iteration
+
 The implementations are available as Jupyter notebooks.
 
 ### Monte Carlo Methods
