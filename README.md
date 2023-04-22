@@ -17,6 +17,7 @@ This directory contains implementations of Monte Carlo methods:
 - On-policy Monte Carlo Control
 - SARSA
 - Q-learning
+
 The implementations are available as Jupyter notebooks and make use of OpenAI gym.
 
 ## Requirements
