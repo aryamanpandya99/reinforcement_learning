@@ -1,5 +1,5 @@
 # Reinforcement Learning
-This repository contains implementations of various reinforcement learning algorithms in Python 3.9. These implementations are created as part of my self-study of the UCL/Deepmind course on Reinforcement Learning available on YouTube, as well as reading through Sutton and Barto's textbook.
+This repository contains implementations of various reinforcement learning algorithms in Python 3.9. These implementations are created as part of my self-study of the UCL/Deepmind course on Reinforcement Learning available on YouTube, as well as reading through Sutton and Barto's textbook "Reinforcement Learning: An Introduction"
 
 ## Directory Structure
 The repository contains the following directories:
