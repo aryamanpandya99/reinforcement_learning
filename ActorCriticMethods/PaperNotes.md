@@ -18,3 +18,10 @@ Google DeepMind
         - A naive approach to neural function approximation for this algorithm is unstable for challenging problems, this paper proposes leveraging breakthroughs from the DQN paper to deal with those issues (experience replay for off policy learning to reduce overfitting and a target v/s policy network) 
     - They call this Deep DPG (DDPG)
     
+## Algorithm
+
+- The DPG algorithm maintains a parameterized **actor** function which specifies the current policy by deterministically maps states to a specific action
+- The algorithm also maintains a **critic** function Q(s, a) that is learned using the bellman equation as in Q-learning 
+- They maintain a relatively large replay buffer
+- A copy of both the actor and critic networks are maintained that are used for calculating target values 
+- 
