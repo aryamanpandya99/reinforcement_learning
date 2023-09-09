@@ -1,43 +1,51 @@
 # Reinforcement Learning
-This repository contains implementations of various reinforcement learning algorithms in Python 3.9. These implementations are created as part of my self-study of the UCL/Deepmind course on Reinforcement Learning available on YouTube, as well as reading through Sutton and Barto's textbook "Reinforcement Learning: An Introduction"
+
+This repository contains implementations of various reinforcement learning algorithms in Python 3.9. These implementations are part of my self-study journey through the UCL/Deepmind course on Reinforcement Learning available on YouTube, coupled with insights from Sutton and Barto's textbook "Reinforcement Learning: An Introduction."
 
 ## Directory Structure
-The repository contains the following directories:
 
-### DynamicProgramming
-This directory contains implementations of two dynamic programming algorithms:
+- **DynamicProgramming**: Contains Jupyter notebook implementations of dynamic programming algorithms. Dynamic programming techniques often involve breaking down a problem into simpler subproblems and optimizing solutions. Examples might include algorithms like Policy Iteration and Value Iteration.
 
-- Policy Iteration
-- Value Iteration
+- **MonteCarloMethods**: Focuses on implementations of Monte Carlo methods which use randomness to solve problems that might be deterministic in principle. Methods such as On-policy Monte Carlo Control could be included.
 
-The implementations are available as Jupyter notebooks
+- **TDLearning**: Centers around Temporal Difference (TD) learning algorithms. TD learning methods combine the ideas of Dynamic Programming and Monte Carlo methods, and might feature topics such as eligibility traces.
 
-### Monte Carlo Methods
-This directory contains implementations of Monte Carlo methods:
+- **ActorCriticMethods**: This directory likely houses Actor-Critic algorithms, a type of RL method where both policy (actor) and value estimate (critic) are learned. This can include different variations of the Actor-Critic methods.
 
-- On-policy Monte Carlo Control
-- SARSA
-- Q-learning
+- **ModelBasedRL**: Consists of reinforcement learning algorithms that employ a model of the environment to make decisions. This means they try to predict the next state and the expected reward from the current state and action.
 
-The implementations are available as Jupyter notebooks and make use of OpenAI gym.
+- **PolicyBasedMethods**: Focuses on reinforcement learning algorithms that optimize the policy directly, such as Proximal Policy Optimization (PPO) or REINFORCE.
+
+- **ValueBasedMethods**: Encompasses algorithms that try to optimize the value function, from which the policy can be derived. Examples might be Q-learning or Deep Q Networks (DQN).
+
+The implementations are primarily available as Jupyter notebooks.
 
 ## Requirements
-To run the Jupyter notebooks, you will need to have Python 3.9 installed, as well as the following libraries:
+
+To run the Jupyter notebooks, ensure you have Python 3.9 installed, as well as the following libraries:
 
 - numpy
 - matplotlib
 - gym
 
-
-These libraries can be installed using pip.
+You can install these libraries using pip.
 
 ## How to Use
-To use the implementations in this repository, simply clone the repository and run the Jupyter notebooks in the relevant directories. The notebooks contain explanations of the algorithms and how to use them.
+
+1. Clone the repository.
+2. Navigate to the desired directory.
+3. Run the Jupyter notebooks present. Each notebook provides a comprehensive explanation of the algorithm and its usage.
 
 ## License
-This repository is licensed under the MIT License. See the LICENSE file for details.
+
+This repository falls under the MIT License. For a detailed description, refer to the LICENSE file.
 
 ## Acknowledgments
+
 - UCL/Deepmind course on Reinforcement Learning
 - Sutton and Barto: Introduction to Reinforcement Learning
 - OpenAI gym
+
+---
+
+This README reflects the updated directory structure and acknowledges the recent changes. You may further adjust the content as per your needs and additional details you'd like to include.
