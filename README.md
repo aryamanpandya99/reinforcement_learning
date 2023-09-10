@@ -27,6 +27,7 @@ To run the Jupyter notebooks, ensure you have Python 3.9 installed, as well as t
 - numpy
 - matplotlib
 - gym
+- mujoco 
 
 You can install these libraries using pip.
 
