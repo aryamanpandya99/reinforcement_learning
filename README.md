@@ -1,6 +1,6 @@
 # Reinforcement Learning
 
-This repository contains implementations of various reinforcement learning algorithms in Python 3.9. These implementations are part of my self-study journey through the UCL/Deepmind course on Reinforcement Learning available on YouTube, coupled with insights from Sutton and Barto's textbook "Reinforcement Learning: An Introduction."
+This repository contains implementations of various reinforcement learning algorithms in Python. These implementations are part of my self-study journey through the UCL/Deepmind course on Reinforcement Learning available on YouTube, coupled with insights from Sutton and Barto's textbook "Reinforcement Learning: An Introduction."
 
 ## Directory Structure
 
@@ -22,7 +22,7 @@ The implementations are primarily available as Jupyter notebooks.
 
 ## Requirements
 
-To run the Jupyter notebooks, ensure you have Python 3.9 installed, as well as the following libraries:
+To run the Jupyter notebooks, ensure you have Python 3.9+ installed, as well as the following libraries:
 
 - numpy
 - matplotlib
@@ -37,16 +37,9 @@ You can install these libraries using pip.
 2. Navigate to the desired directory.
 3. Run the Jupyter notebooks present. Each notebook provides a comprehensive explanation of the algorithm and its usage.
 
-## License
-
-This repository falls under the MIT License. For a detailed description, refer to the LICENSE file.
 
 ## Acknowledgments
 
 - UCL/Deepmind course on Reinforcement Learning
 - Sutton and Barto: Introduction to Reinforcement Learning
 - OpenAI gym
-
----
-
-This README reflects the updated directory structure and acknowledges the recent changes. You may further adjust the content as per your needs and additional details you'd like to include.
